@@ -1,10 +1,10 @@
-#GSO Forrit
+#GSO Forrit - Afangaverkefni
 txtfile = open("testfile.txt","w")
-txtfile.write ("Echo world")
+txtfile.write ("Echo world, ")
 txtfile.close()
 txtfile = open("testfile.txt","a")
-txtfile.write(" This is my second line")
-txtfile.write(" This is THE 3rd line")
+txtfile.write(" This is my second line,")
+txtfile.write(" This is THE third  line.")
 txtfile.close()
 txtfile = open("testfile.txt", "r")
 print (txtfile.read())
