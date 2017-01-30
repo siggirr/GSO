@@ -1,1 +1,3 @@
-Echo world,  This is my second line, This is THE thirt line.
+Echo world,  
+This is my second line. 
+This is the third  line.
